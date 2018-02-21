@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import friend.snru.ac.th.emercall.R;
 
@@ -18,7 +19,7 @@ import friend.snru.ac.th.emercall.R;
 public class MainFragment extends Fragment{
 
 //    Explicit
-    private String tag = "MyTagV1"
+    private String tag = "MyTagV1";
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
@@ -37,6 +38,14 @@ public class MainFragment extends Fragment{
             }
         });
 
+        TextView station1TextView = getView().findViewById(R.id.textViewStation1);
+        station1TextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d(tag, "Click Text" + getString(R.string.station1));
+            }
+        });
+
         //        For Station 2
 
 
@@ -49,6 +58,11 @@ public class MainFragment extends Fragment{
 
 
     }  //Main Method
+
+    public void callStation(String numberCall) {
+
+    }
+
 
     @Nullable
     @Override

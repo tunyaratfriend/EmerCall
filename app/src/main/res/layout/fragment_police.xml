@@ -123,6 +123,7 @@
 
                 <!--Station4-->
                 <TextView
+                    android:clickable="true"
                     android:id="@+id/textViewStation4"
                     android:layout_alignParentBottom="true"
                     android:padding="5dp"
