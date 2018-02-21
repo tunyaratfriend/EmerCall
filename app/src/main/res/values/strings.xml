@@ -4,4 +4,8 @@
     <string name="close">Close Drawer</string>
     <string name="open">Open Drawer</string>
 
+    <string name="station1">Facebook</string>
+    <string name="station2">Linkedin</string>
+    <string name="station3">Line</string>
+    <string name="station4">Twitter</string>
 </resources>
