@@ -28,6 +28,5 @@ public class HotpitalFragment extends Fragment{
         return view;
 
     }
-}
 } // Main Class
 
